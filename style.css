@@ -7,6 +7,7 @@ p{
     color: #3C3C3C;
 }
 
+/*sprogvalg*/
 .toogle {
     display: flex;
     justify-content: flex-end;
@@ -14,7 +15,7 @@ p{
     background-color: #F3F4EF;
 }
 
-
+/*styling af navigation og ikoner*/
 nav{
     background-color: #779882;
     width: 100%;
@@ -22,12 +23,10 @@ nav{
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
-
 i {
     font-size: 4em;
     color: #152626;
 }
-
 .logo{
     justify-self: start;
 }
@@ -35,11 +34,11 @@ i {
     justify-self: end;
 }
 
+/*styling på teksten under banner*/
 .top{
     background-color: #779882;
     padding-bottom: 1.5em;
 }
-/*styling på teksten under banner*/
 h1{
     color: #F3F4EF;
     font-size: 3.2em;
@@ -52,7 +51,6 @@ h1{
     font-weight: normal;
     text-align: center;
 }
-
 .banner{
     width: 100%;
     height: 580px;
@@ -64,6 +62,7 @@ h1{
     transform: translateY(-10%); /*ledte efter det på nettet, enten zoomede det ind med object-position eller så gjorde det ingenting som på mockuppen https://www.w3schools.com/cssref/css3_pr_transform.php*/
 }
 
+/*styling af sektion 1*/
 .fk{
     background-color: #F3F4EF;
     display: grid;
@@ -74,7 +73,6 @@ h2{
     font-size: 3em;
     color: #3C3C3C;
 }
-
 .fk h3{
     font-size: 2.8em;
     color: #F3F4EF;
@@ -85,19 +83,16 @@ h2{
     color: #3C3C3C;
     padding: 2em 3em 0em 0em;
 }
-
 .kontakt {
     background-color: #425348;
     border-radius: 5em;
     padding: 3.8em;
-    margin: 4em 3.5em 3.8em 0em;
+    margin: 4em 3em 2em 0em;
     width: 35em;
     height: 40em;
     text-align: center;
-    
-    
 }
-
+/*fjerner tekst ude for input så de kun står indvendigt*/
 .visually-hidden{
     border: 0;
     clip: rect(0 0 0 0);
@@ -108,7 +103,7 @@ h2{
     position: absolute;
     width: 1px;
 }
-
+/*styling af input i kontaktformular*/
 input{
     display: block;
     font-size: 1.5em;
@@ -118,17 +113,41 @@ input{
     padding: 1em;
     border:none;
 }
-
 input[type=text], input[type=mail]{
     color: #3C3C3C;
 }
-
 input[type=submit]{
     background-color: #779882;
     color: #F3F4EF;
     cursor: pointer;
 }
 
+/*styling af sektion 2, under kontaktformularen*/
 .section2{
-    padding: 2em 3em 0em 0em;
+    padding: 3em 3em 4em 3.5em;
+    display: block;
+}
+.section2 h2{
+    font-size: 3em;
+    text-align: center;
+}
+.section2 p{
+    font-size: 1.8em;
+    color: #3C3C3C;
+    padding: 2em 2.8em 0em 2.8em;
+}
+.knap{
+    text-align: center;
+    margin-top: 5em;
+    margin-bottom: 5em;
+}
+.section2 a{
+    color: #F3F4EF;
+    font-size: 1.8em;
+    font-weight: bold;
+    background-color: #779882;
+    padding: 1em;
+    border-radius: 1em;
+    text-decoration: none;
+    
 }
