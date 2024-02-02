@@ -6,18 +6,6 @@
 p{
     color: #3C3C3C;
 }
-h1{
-    color: #F3F4EF;
-    font-size: 3.2em;
-    text-align: center;
-    margin: 0.5em 0em 0.2em 0em;
-}
-.top h2 {
-    color: #F3F4EF;
-    font-size: 2.2em;
-    font-weight: normal;
-    text-align: center;
-}
 
 .toogle {
     display: flex;
@@ -51,6 +39,20 @@ i {
     background-color: #779882;
     padding-bottom: 1.5em;
 }
+/*styling på teksten under banner*/
+h1{
+    color: #F3F4EF;
+    font-size: 3.2em;
+    text-align: center;
+    margin: 0.5em 0em 0.2em 0em;
+}
+.top h2 {
+    color: #F3F4EF;
+    font-size: 2.2em;
+    font-weight: normal;
+    text-align: center;
+}
+
 .banner{
     width: 100%;
     height: 580px;
@@ -106,6 +108,7 @@ h2{
     position: absolute;
     width: 1px;
 }
+
 input{
     display: block;
     font-size: 1.5em;
@@ -119,8 +122,13 @@ input{
 input[type=text], input[type=mail]{
     color: #3C3C3C;
 }
+
 input[type=submit]{
     background-color: #779882;
     color: #F3F4EF;
     cursor: pointer;
+}
+
+.section2{
+    padding: 2em 3em 0em 0em;
 }
