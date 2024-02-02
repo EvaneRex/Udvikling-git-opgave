@@ -61,3 +61,61 @@ i {
     height: auto;
     transform: translateY(-10%); /*ledte efter det på nettet, enten zoomede det ind med object-position eller så gjorde det ingenting som på mockuppen https://www.w3schools.com/cssref/css3_pr_transform.php*/
 }
+
+.fk{
+    background-color: #F3F4EF;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    padding: 2em 3em 4em 3.5em;
+}
+h2{
+    font-size: 3em;
+    color: #3C3C3C;
+}
+
+.fk h3{
+    font-size: 2.8em;
+    color: #F3F4EF;
+
+}
+.fællesskab p{
+    font-size: 1.8em;
+    color: #3C3C3C;
+    padding: 2em 3em 0em 0em;
+}
+
+.kontakt {
+    background-color: #425348;
+    border-radius: 5em;
+    padding-top: 3.8em;
+    margin: 4em 3.5em 0em 0em;
+    width: 35em;
+    height: 38em;
+    text-align: center;
+    
+}
+.visually-hidden{
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+input{
+    font-size: 1.5em;
+    border-radius: 1em;
+    margin: 1.5em 2em 0em 2em;
+    padding: 1em;
+    border: none;
+}
+.tilmeld{
+    background-color: #779882;
+    color: #F3F4EF;
+    border: none;
+    padding: 1em 5em;
+    width: auto;
+}
