@@ -139,7 +139,7 @@ input[type=submit]{
 .knap{
     text-align: center;
     margin-top: 5em;
-    margin-bottom: 5em;
+    margin-bottom: 2em;
 }
 .section2 a{
     color: #F3F4EF;
@@ -149,5 +149,23 @@ input[type=submit]{
     padding: 1em;
     border-radius: 1em;
     text-decoration: none;
-    
+}
+
+/*Footer*/
+footer{
+    background-color: #425348;
+    width: 100%;
+    min-height: 14em;
+}
+.links{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+}
+.links a{
+    color: #F3F4EF;
+    font-size: 2.5em;
+    font-weight: bold;
+    text-decoration: none;
+    padding-top: 1em;
 }
