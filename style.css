@@ -8,5 +8,5 @@
 .toogle {
     display: flex;
     justify-content: flex-end;
-    margin: 1em 1.5em 1em 0em;
+    margin: 1em 1.5em 1em 0em; *top right bottom left*
 }
