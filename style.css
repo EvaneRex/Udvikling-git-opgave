@@ -87,13 +87,15 @@ h2{
 .kontakt {
     background-color: #425348;
     border-radius: 5em;
-    padding-top: 3.8em;
-    margin: 4em 3.5em 0em 0em;
+    padding: 3.8em;
+    margin: 4em 3.5em 3.8em 0em;
     width: 35em;
-    height: 38em;
+    height: 40em;
     text-align: center;
     
+    
 }
+
 .visually-hidden{
     border: 0;
     clip: rect(0 0 0 0);
@@ -104,18 +106,21 @@ h2{
     position: absolute;
     width: 1px;
 }
-
 input{
+    display: block;
     font-size: 1.5em;
+    width: 80%;
     border-radius: 1em;
-    margin: 1.5em 2em 0em 2em;
+    margin: 1.5em 1.5em 1.5em 1.5em;
     padding: 1em;
-    border: none;
+    border:none;
 }
-.tilmeld{
+
+input[type=text], input[type=mail]{
+    color: #3C3C3C;
+}
+input[type=submit]{
     background-color: #779882;
     color: #F3F4EF;
-    border: none;
-    padding: 1em 5em;
-    width: auto;
+    cursor: pointer;
 }
